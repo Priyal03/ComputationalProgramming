@@ -1,0 +1,11 @@
+public class StaticMemory{
+
+	static{
+		b=10;
+	}
+		int b;
+	public static void main(String args[]){
+
+		System.out.println("B : "+b);
+	}
+}
